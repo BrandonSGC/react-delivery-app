@@ -1,10 +1,11 @@
-import { Header, SearchForm } from "../layout";
+import { Header, Hero, HowItWorks } from "../layout";
 
 export const Home = () => {
   return (
     <>
       <Header />
-      <SearchForm />
+      <Hero />
+      <HowItWorks />
     </>
   );
 };
