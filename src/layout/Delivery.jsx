@@ -7,7 +7,7 @@ export const Delivery = () => {
 
       <div className="delivery__grid contenedor">
         <div className="delivery__image">
-          <img src="/public/img/repartidor.jpg" alt="delivery image" />
+          <img src="/img/repartidor.jpg" alt="delivery image" />
         </div>
 
         <div className="delivery__content">

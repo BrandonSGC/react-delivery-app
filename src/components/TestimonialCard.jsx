@@ -9,7 +9,7 @@ export const TestimonialCard = ({ imageURL, author, description }) => {
           <p className="testimonial__author">{author}</p>
           <img
             className="testimonial__rating"
-            src="/public/img/estrellas.png"
+            src="/img/estrellas.png"
             alt="stars image"
           />
         </div>

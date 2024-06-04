@@ -2,7 +2,7 @@
 @use "../base/mixins" as m;
 
 .testimonials {
-  padding: v.$separacion;
+  padding: 5rem 0;
 
   &__heading {
     text-align: center;
