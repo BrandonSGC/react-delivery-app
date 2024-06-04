@@ -3,3 +3,4 @@ export * from './Hero';
 export * from './HowItWorks';
 export * from './Testimonials';
 export * from './Favorites';
+export * from './Delivery';
