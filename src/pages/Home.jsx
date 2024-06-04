@@ -1,4 +1,4 @@
-import { Header, Hero, HowItWorks, Testimonials } from "../layout";
+import { Favorites, Header, Hero, HowItWorks, Testimonials } from "../layout";
 
 export const Home = () => {
   return (
@@ -7,6 +7,7 @@ export const Home = () => {
       <Hero />
       <HowItWorks />
       <Testimonials />
+      <Favorites />
     </>
   );
 };

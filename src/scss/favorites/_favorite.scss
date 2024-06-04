@@ -1,0 +1,51 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
+
+.favorite {
+  background-color: white;
+  padding: 4rem;
+  border-radius: 1rem;
+  display: grid;
+  align-items: center;
+  gap: 4rem;
+  box-shadow: 0 0 2.6rem -0.8rem darken(v.$grisClaro, 20%);
+
+  @include m.desktop {
+    grid-template-columns: 1fr 3fr;
+  }
+
+  &__image {
+    margin: 0 auto;
+    max-width: 20rem;
+    @include m.tablet {
+      max-width: 15rem;
+    }
+  }
+
+  &__content {
+    text-align: center;
+
+    @include m.desktop {
+      text-align: left;
+    }
+
+    img {
+      margin: 0 auto;
+
+      @include m.desktop {
+        margin: 0;
+      }
+    }
+  }
+
+  &__title {
+    color: v.$primario;
+    font-size: 2.4rem;
+    margin: 1rem 0;
+  }
+
+  &__description {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+}
