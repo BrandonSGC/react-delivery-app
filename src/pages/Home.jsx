@@ -1,4 +1,4 @@
-import { Delivery, Favorites, Header, Hero, HowItWorks, Testimonials, Download } from "../layout";
+import { Delivery, Favorites, Header, Hero, HowItWorks, Testimonials, Download, Footer } from "../layout";
 
 export const Home = () => {
   return (
@@ -10,6 +10,7 @@ export const Home = () => {
       <Favorites />
       <Delivery />
       <Download />
+      <Footer />
     </>
   );
 };

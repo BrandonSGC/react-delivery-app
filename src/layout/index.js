@@ -5,3 +5,4 @@ export * from './Testimonials';
 export * from './Favorites';
 export * from './Delivery';
 export * from './Download';
+export * from './Footer';
