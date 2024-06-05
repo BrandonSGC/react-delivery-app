@@ -20,7 +20,7 @@ const testimonials = [
     author: "Carlos Guzman",
     imageURL: "/img/testimonial3.jpg",
     description:
-      "Una excelente app, puedo seleccionar de una gran cantidad de opciones y pagar en tarjeta o efectivo según me convenga y pagar en tarjeta o efectivo según me convenga.",
+      "Una excelente app, puedo seleccionar de una gran cantidad de opciones y pagar en tarjeta o efectivo según me convenga y pagar en tarjeta o efectivo de una gran cantidad de opciones.",
   },
   {
     id: 4,

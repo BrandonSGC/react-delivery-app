@@ -2,7 +2,12 @@
 @use "../base/mixins" as m;
 
 .formulario {
+  background-color: v.$grisClaro;
+  border-radius: .5rem;
+  overflow: hidden;
+
   &__grid {
+    @include m.grid(1, 2rem);
     @include m.tablet {
       @include m.grid(2, v.$separacion);
     }
@@ -46,9 +51,10 @@
   }
 
   &__imagen-contenedor {
-    margin-top: v.$separacion;
+    padding: 4rem;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   &__imagen {

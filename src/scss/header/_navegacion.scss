@@ -14,12 +14,13 @@
   }
 
   &__link {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
     color: v.$negro;
 
     &--registrar {
       @include m.boton(v.$primario, v.$blanco);
+      font-size: 1.8rem;
     }
   }
 }

@@ -9,7 +9,7 @@ export const Header = () => {
 
       <nav className="navegacion">
         <Link to="/" className="navegacion__link">
-          Iniciar Sesion
+          Iniciar Sesión
         </Link>
         <Link to="/" className="navegacion__link">
           Crear Cuenta
